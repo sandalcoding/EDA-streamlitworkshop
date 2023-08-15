@@ -14,7 +14,7 @@ This is the **EDA App** created in Streamlit using the **pandas-profiling** libr
 ''')
 
 # Upload CSV data
-with st.sidebar.header('1. Upload your CSV data'):
+with st.sidebar.header('Upload your CSV data'):
     uploaded_file = st.sidebar.file_uploader("Upload your input CSV file", type=["csv"])
     st.sidebar.markdown("""
 [Example CSV input file](https://www.kaggle.com/datasets/uciml/pima-indians-diabetes-database)
